@@ -1,0 +1,5 @@
+[
+  { "id": "kodak_gold_200", "name": "Kodak Gold 200", "iso": 200, "p_factor": 1.26 },
+  { "id": "ilford_hp5", "name": "Ilford HP5 Plus", "iso": 400, "p_factor": 1.31 },
+  { "id": "cinestill_800t", "name": "CineStill 800T", "iso": 800, "p_factor": 1.34 }
+]
