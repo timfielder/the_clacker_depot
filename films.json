@@ -1,5 +1,122 @@
 [
-  { "id": "kodak_gold_200", "name": "Kodak Gold 200", "iso": 200, "p_factor": 1.26 },
-  { "id": "ilford_hp5", "name": "Ilford HP5 Plus", "iso": 400, "p_factor": 1.31 },
-  { "id": "cinestill_800t", "name": "CineStill 800T", "iso": 800, "p_factor": 1.34 }
+  {
+    "id": "fuji_provia_100f",
+    "name": "Fuji Provia 100F",
+    "iso": 100,
+    "p_factor": 1.00,
+    "reliability": 5,
+    "about": "Highly Linear. Maintains a 1:1 reciprocity relationship up to 128 seconds. Statistical compensation is unnecessary within this range."
+  },
+  {
+    "id": "fuji_velvia_50",
+    "name": "Fuji Velvia 50",
+    "iso": 50,
+    "p_factor": 1.10,
+    "reliability": 5,
+    "about": "Low-Speed Efficiency. Exceptional resistance to failure for a low-ISO film. Requires only minor adjustment for exposures up to 1 minute."
+  },
+  {
+    "id": "ilford_hp5",
+    "name": "Ilford HP5 Plus",
+    "iso": 400,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "about": "Consistent Decay. Follows a predictable power-law curve starting at 1s. Factor is derived directly from Ilford’s published Schwarzschild exponents."
+  },
+  {
+    "id": "ilford_fp4",
+    "name": "Ilford FP4 Plus",
+    "iso": 125,
+    "p_factor": 1.26,
+    "reliability": 5,
+    "about": "Traditional Grain Curve. More efficient than its faster counterpart (HP5), showing a slightly shallower failure rate in mid-length exposures."
+  },
+  {
+    "id": "ilford_delta_100",
+    "name": "Ilford Delta 100",
+    "iso": 100,
+    "p_factor": 1.26,
+    "reliability": 5,
+    "about": "Tabular Precision. Exhibits a very stable failure curve. Consistent with modern Ilford sensitometric standards."
+  },
+  {
+    "id": "ilford_delta_3200",
+    "name": "Ilford Delta 3200",
+    "iso": 3200,
+    "p_factor": 1.33,
+    "reliability": 5,
+    "about": "Steep High-Speed Curve. Despite high nominal speed, sensitivity loss is rapid. Exposure times climb quickly once the meter exceeds 1 second."
+  },
+  {
+    "id": "kodak_tmax_100",
+    "name": "Kodak T-Max 100",
+    "iso": 100,
+    "p_factor": 1.15,
+    "reliability": 4,
+    "about": "Modern Grain Efficiency. Tabular-grain structure provides high efficiency at low light levels, requiring less compensation than traditional grains."
+  },
+  {
+    "id": "kodak_tmax_400",
+    "name": "Kodak T-Max 400",
+    "iso": 400,
+    "p_factor": 1.15,
+    "reliability": 4,
+    "about": "High-Speed Efficiency. Maintains the same efficient Schwarzschild exponent as T-Max 100, making it one of the most efficient 400 ISO films."
+  },
+  {
+    "id": "kodak_tri_x_400",
+    "name": "Kodak Tri-X 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 4,
+    "about": "Traditional Professional Curve. A well-documented baseline for traditional grain. Exhibits predictable, moderate sensitivity loss."
+  },
+  {
+    "id": "kodak_portra_400",
+    "name": "Kodak Portra 400",
+    "iso": 400,
+    "p_factor": 1.35,
+    "reliability": 4,
+    "about": "Standard Color Curve. Field-verified 1.35 factor ensures shadow detail is maintained despite the lack of modern factory data."
+  },
+  {
+    "id": "kodak_ektar_100",
+    "name": "Kodak Ektar 100",
+    "iso": 100,
+    "p_factor": 1.22,
+    "reliability": 4,
+    "about": "Low-Light Optimized Color. Exhibits a shallower failure curve than the Portra series, losing sensitivity more slowly during landscapes."
+  },
+  {
+    "id": "cinestill_800t",
+    "name": "CineStill 800T",
+    "iso": 800,
+    "p_factor": 1.34,
+    "reliability": 4,
+    "about": "Tungsten Cinema Baseline. Derived from Vision3 500T. Reliable for urban night photography; shadow detail is preserved with a 1.34 factor."
+  },
+  {
+    "id": "kodak_gold_200",
+    "name": "Kodak Gold 200",
+    "iso": 200,
+    "p_factor": 1.26,
+    "reliability": 3,
+    "about": "Consumer Linear Curve. Reliable for dusk shots. Note potential minor color drift toward yellow/warmth in exposures exceeding 2 minutes."
+  },
+  {
+    "id": "foma_fomapan_100",
+    "name": "Fomapan 100",
+    "iso": 100,
+    "p_factor": 1.54,
+    "reliability": 3,
+    "about": "Aggressive Failure. High rate of sensitivity loss. Even short metered times require substantial increases to avoid underexposure."
+  },
+  {
+    "id": "lomography_800",
+    "name": "Lomo Color 800",
+    "iso": 800,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "about": "High Speed Baseline. Exhibits moderate reciprocity failure. Reliable for handheld available light and short-duration tripod work."
+  }
 ]
