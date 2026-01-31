@@ -1,0 +1,66 @@
+[
+  {
+    "id": "uv_haze",
+    "name": "UV / Haze",
+    "stop_reduction": 0.0,
+    "factor": "1x",
+    "reliability": 5,
+    "about": "Standard protective glass. No measurable light reduction. Primarily used to cut atmospheric haze and protect the front element."
+  },
+  {
+    "id": "k2_yellow",
+    "name": "K2 Yellow (No. 8)",
+    "stop_reduction": 1.0,
+    "factor": "2x",
+    "reliability": 5,
+    "about": "Standard contrast filter for B&W. Darkens blue skies to increase cloud definition. Corrects tonal range for traditional emulsions."
+  },
+  {
+    "id": "o2_orange",
+    "name": "O2 Orange (No. 21)",
+    "stop_reduction": 2.0,
+    "factor": "4x",
+    "reliability": 5,
+    "about": "Strong contrast for B&W. Significant darkening of blue/green spectrums. Increases haze penetration in landscape photography."
+  },
+  {
+    "id": "r2_red",
+    "name": "R2 Red (No. 25)",
+    "stop_reduction": 3.0,
+    "factor": "8x",
+    "reliability": 5,
+    "about": "Dramatic contrast for B&W. Turns blue skies near-black. Note: Check film red-sensitivity; some stocks (e.g. Fomapan) may require an extra 0.5 stop."
+  },
+  {
+    "id": "cpl_polarizer",
+    "name": "CPL Polarizer",
+    "stop_reduction": 1.5,
+    "factor": "2.8x",
+    "reliability": 4,
+    "about": "Used to cut reflections and deepen sky saturation. Light reduction varies by rotation (average 1.5 stops)."
+  },
+  {
+    "id": "nd_0.6",
+    "name": "ND4 (2-Stop)",
+    "stop_reduction": 2.0,
+    "factor": "4x",
+    "reliability": 5,
+    "about": "Neutral Density. Uniformly reduces light across the spectrum by 2 stops without altering color balance."
+  },
+  {
+    "id": "nd_0.9",
+    "name": "ND8 (3-Stop)",
+    "stop_reduction": 3.0,
+    "factor": "8x",
+    "reliability": 5,
+    "about": "Neutral Density. Uniformly reduces light by 3 stops. Ideal for extending shutter speeds in bright daylight."
+  },
+  {
+    "id": "nd_3.0",
+    "name": "ND1000 (10-Stop)",
+    "stop_reduction": 10.0,
+    "factor": "1024x",
+    "reliability": 4,
+    "about": "Extreme Neutral Density. Used for long-exposure effects like smoothing water. May introduce minor IR color casts on certain film stocks."
+  }
+]
