@@ -1,0 +1,62 @@
+[
+  {
+    "id": "nikkor_50_14",
+    "name": "Nikkor 50mm f/1.4",
+    "focal_length": 50,
+    "max_aperture": 1.4,
+    "min_aperture": 16.0,
+    "requires_bellows_calc": false,
+    "reliability": 5,
+    "about": "High-speed prime. Standard 35mm focal length. Ideal for available light photography."
+  },
+  {
+    "id": "mamiya_80_28",
+    "name": "Mamiya 80mm f/2.8 (6x7)",
+    "focal_length": 80,
+    "max_aperture": 2.8,
+    "min_aperture": 22.0,
+    "requires_bellows_calc": false,
+    "reliability": 5,
+    "about": "Standard lens for the RB/RZ system. Well-documented aperture performance."
+  },
+  {
+    "id": "hasselblad_80_28",
+    "name": "Zeiss Planar 80mm f/2.8",
+    "focal_length": 80,
+    "max_aperture": 2.8,
+    "min_aperture": 22.0,
+    "requires_bellows_calc": false,
+    "reliability": 5,
+    "about": "Reference lens for Hasselblad V-System. Known for high-precision mechanical aperture stops."
+  },
+  {
+    "id": "schneider_150_56",
+    "name": "Schneider Symmar 150mm f/5.6",
+    "focal_length": 150,
+    "max_aperture": 5.6,
+    "min_aperture": 64.0,
+    "requires_bellows_calc": true,
+    "reliability": 5,
+    "about": "Large Format standard. Exposure requires bellows extension compensation if focused closely."
+  },
+  {
+    "id": "nikkor_sw_90_8",
+    "name": "Nikkor-SW 90mm f/8",
+    "focal_length": 90,
+    "max_aperture": 8.0,
+    "min_aperture": 64.0,
+    "requires_bellows_calc": true,
+    "reliability": 5,
+    "about": "Wide-angle Large Format. Requires careful bellows compensation due to the shorter focal length relative to the film plane."
+  },
+  {
+    "id": "canon_35_2",
+    "name": "Canon 35mm f/2.0",
+    "focal_length": 35,
+    "max_aperture": 2.0,
+    "min_aperture": 22.0,
+    "requires_bellows_calc": false,
+    "reliability": 5,
+    "about": "Wide-angle street prime. Reliable aperture range for 35mm format photography."
+  }
+]
