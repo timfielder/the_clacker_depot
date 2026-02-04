@@ -1,122 +1,453 @@
 [
   {
-    "id": "fuji_provia_100f",
-    "name": "Fuji Provia 100F",
-    "iso": 100,
-    "p_factor": 1.00,
-    "reliability": 5,
-    "about": "Highly Linear. Maintains a 1:1 reciprocity relationship up to 128 seconds. Statistical compensation is unnecessary within this range."
-  },
-  {
-    "id": "fuji_velvia_50",
-    "name": "Fuji Velvia 50",
-    "iso": 50,
-    "p_factor": 1.10,
-    "reliability": 5,
-    "about": "Low-Speed Efficiency. Exceptional resistance to failure for a low-ISO film. Requires only minor adjustment for exposures up to 1 minute."
-  },
-  {
-    "id": "ilford_hp5",
-    "name": "Ilford HP5 Plus",
-    "iso": 400,
-    "p_factor": 1.31,
-    "reliability": 5,
-    "about": "Consistent Decay. Follows a predictable power-law curve starting at 1s. Factor is derived directly from Ilford’s published Schwarzschild exponents."
-  },
-  {
-    "id": "ilford_fp4",
-    "name": "Ilford FP4 Plus",
-    "iso": 125,
-    "p_factor": 1.26,
-    "reliability": 5,
-    "about": "Traditional Grain Curve. More efficient than its faster counterpart (HP5), showing a slightly shallower failure rate in mid-length exposures."
-  },
-  {
-    "id": "ilford_delta_100",
-    "name": "Ilford Delta 100",
-    "iso": 100,
-    "p_factor": 1.26,
-    "reliability": 5,
-    "about": "Tabular Precision. Exhibits a very stable failure curve. Consistent with modern Ilford sensitometric standards."
-  },
-  {
-    "id": "ilford_delta_3200",
-    "name": "Ilford Delta 3200",
-    "iso": 3200,
-    "p_factor": 1.33,
-    "reliability": 5,
-    "about": "Steep High-Speed Curve. Despite high nominal speed, sensitivity loss is rapid. Exposure times climb quickly once the meter exceeds 1 second."
-  },
-  {
-    "id": "kodak_tmax_100",
-    "name": "Kodak T-Max 100",
-    "iso": 100,
-    "p_factor": 1.15,
-    "reliability": 4,
-    "about": "Modern Grain Efficiency. Tabular-grain structure provides high efficiency at low light levels, requiring less compensation than traditional grains."
-  },
-  {
-    "id": "kodak_tmax_400",
-    "name": "Kodak T-Max 400",
-    "iso": 400,
-    "p_factor": 1.15,
-    "reliability": 4,
-    "about": "High-Speed Efficiency. Maintains the same efficient Schwarzschild exponent as T-Max 100, making it one of the most efficient 400 ISO films."
-  },
-  {
-    "id": "kodak_tri_x_400",
-    "name": "Kodak Tri-X 400",
-    "iso": 400,
-    "p_factor": 1.30,
-    "reliability": 4,
-    "about": "Traditional Professional Curve. A well-documented baseline for traditional grain. Exhibits predictable, moderate sensitivity loss."
-  },
-  {
-    "id": "kodak_portra_400",
-    "name": "Kodak Portra 400",
-    "iso": 400,
-    "p_factor": 1.35,
-    "reliability": 4,
-    "about": "Standard Color Curve. Field-verified 1.35 factor ensures shadow detail is maintained despite the lack of modern factory data."
-  },
-  {
-    "id": "kodak_ektar_100",
-    "name": "Kodak Ektar 100",
-    "iso": 100,
-    "p_factor": 1.22,
-    "reliability": 4,
-    "about": "Low-Light Optimized Color. Exhibits a shallower failure curve than the Portra series, losing sensitivity more slowly during landscapes."
-  },
-  {
-    "id": "cinestill_800t",
-    "name": "CineStill 800T",
-    "iso": 800,
-    "p_factor": 1.34,
-    "reliability": 4,
-    "about": "Tungsten Cinema Baseline. Derived from Vision3 500T. Reliable for urban night photography; shadow detail is preserved with a 1.34 factor."
-  },
-  {
     "id": "kodak_gold_200",
     "name": "Kodak Gold 200",
     "iso": 200,
     "p_factor": 1.26,
     "reliability": 3,
-    "about": "Consumer Linear Curve. Reliable for dusk shots. Note potential minor color drift toward yellow/warmth in exposures exceeding 2 minutes."
+    "purchase_url": "https://bluebirdfilmshop.com/products/copy-of-kodak-professional-gold-200-film-35mm-format",
+    "about": "A low speed color negative film that offers an outstanding combination of color saturation, fine grain, and high sharpness. Legendary warm tones and high latitude. Optimized for golden hour transitions; reliable for standard landscape work."
   },
   {
-    "id": "foma_fomapan_100",
-    "name": "Fomapan 100",
+    "id": "flic_elektra_100",
+    "name": "Flic Film Elektra 100",
     "iso": 100,
-    "p_factor": 1.54,
+    "p_factor": 1.30,
     "reliability": 3,
-    "about": "Aggressive Failure. High rate of sensitivity loss. Even short metered times require substantial increases to avoid underexposure."
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-elektra-100",
+    "about": "Kodak Aerocolor IV re-spooled. A fine grained medium speed film with excellent acuity and true color rendition. Note that this film has a tendency to 'light pipe'—load in low light. Uses a 1.3 power factor and remains stable for exposures under 2 minutes."
   },
   {
-    "id": "lomography_800",
-    "name": "Lomo Color 800",
+    "id": "harman_phoenix_200",
+    "name": "Harman Phoenix 200",
+    "iso": 200,
+    "p_factor": 1.31,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/harman-phoenix-200",
+    "about": "The first ever color film made entirely from emulsion-to-cassette at the HARMAN technology factory. High contrast and strong visible grain with punchy colors. Expect significant contrast shifts and halation in long exposures."
+  },
+  {
+    "id": "street_candy_atm400",
+    "name": "Street Candy ATM 400",
+    "iso": 400,
+    "p_factor": 1.31,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/street-candy-atm-400-35mm-36exp",
+    "about": "Originally used in ATMs to catch bank robbers. A high-contrast surveillance film with a unique, moody panchromatic look. Data is derived from community consensus testing on re-spooled atmospheric stocks."
+  },
+  {
+    "id": "fomapan_100_classic",
+    "name": "Fomapan 100 Classic",
+    "iso": 100,
+    "p_factor": 1.45,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/fomapan-100-classic-35mm-36exp",
+    "about": "A panchromatically sensitized black-and-white negative film designed for high requirements for low granularity and high resolving power. Reciprocity failure is extreme; a 10s metered time requires roughly 50s exposure."
+  },
+  {
+    "id": "kodak_ultramax_400",
+    "name": "Kodak UltraMax 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-ultramax-400-35mm-film-36-exposures",
+    "about": "A worry-free high speed film designed for snapshooters. Gives you the flexibility you need for consistently better pictures in more situaciones. Standard 1.3 reciprocity exponent; highly reliable up to 30s."
+  },
+  {
+    "id": "ilford_hp5_plus",
+    "name": "Ilford HP5 Plus",
+    "iso": 400,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ilford-hp5-plus-35mm-film",
+    "about": "A high speed, medium contrast black & white film making it an excellent choice for journalism and travel. Reliability is manufacturer-verified, proving highly predictable beyond the 1-second floor."
+  },
+  {
+    "id": "kentmere_pan_400",
+    "name": "Kentmere Pan 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kentmere-pan-400-35mm-36exp",
+    "about": "A flexible high-speed black and white film for everyday use. Offers good sharpness and fine grain. Stable choice for large format testing and outdoor trekking."
+  },
+  {
+    "id": "kodak_colorplus_200",
+    "name": "Kodak ColorPlus 200",
+    "iso": 200,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-colorplus-200-35mm-36exp",
+    "about": "A versatile film with fine grain and high sharpness. Good for a wide range of lighting conditions. Uses the 1.3 rule of thumb, providing surprising latitude for night street photography."
+  },
+  {
+    "id": "cinestill_800t",
+    "name": "CineStill 800T",
     "iso": 800,
     "p_factor": 1.30,
     "reliability": 3,
-    "about": "High Speed Baseline. Exhibits moderate reciprocity failure. Reliable for handheld available light and short-duration tripod work."
+    "purchase_url": "https://bluebirdfilmshop.com/products/cinestill-800-tungsten-high-speed-color-negative-film-35mm-36-exposures",
+    "about": "Designed for difficult low light tungsten situations. Features iconic red halations around light sources. Uses the standard 1.3 power factor; monitor highlight wash-out in exposures exceeding 60s."
+  },
+  {
+    "id": "flic_aurora_800",
+    "name": "Flic Film Aurora 800",
+    "iso": 800,
+    "p_factor": 1.40,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-aurora-800-35mm-36exp",
+    "about": "A high-speed color negative re-spooled from Portra 800. Handles extremely low light with character. Requires more aggressive compensation than lower-speed color stocks."
+  },
+  {
+    "id": "ilford_delta_100",
+    "name": "Ilford Delta 100 Professional",
+    "iso": 100,
+    "p_factor": 1.26,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ilford-delta-professional-100-35mm",
+    "about": "An ultra-sharp black and white film using latest Core-shell™ technology for maximum sharpness. Manufacturer-verified reciprocity ensures stunning results for detail-rich landscapes."
+  },
+  {
+    "id": "flic_ultrapan_400",
+    "name": "Flic Film UltraPan 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-ultrapan-400-35mm-36exp",
+    "about": "A traditional black and white emulsion with classic grain and high versatility. This is re-spooled Fomapan 400 Action. Uses community-corrected reciprocity factors."
+  },
+  {
+    "id": "street_candy_psy_400",
+    "name": "Street Candy Psychedelic 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/street-candy-psychedelic-400-35mm-36exp",
+    "about": "A creative specialty color stock with high latitude. Originally a technical film, it offers a unique look. Reliability based on community testing; recommended to bracket in unpredictable light."
+  },
+  {
+    "id": "ilford_fp4_plus",
+    "name": "Ilford FP4 Plus",
+    "iso": 125,
+    "p_factor": 1.26,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ilford-fp4-plus-35mm-film",
+    "about": "Exceptionally fine-grained, medium-speed black and white film. Reliability is manufacturer-verified and highly efficient for long-exposure pinhole work."
+  },
+  {
+    "id": "foma_200_creative",
+    "name": "Fomapan 200 Creative",
+    "iso": 200,
+    "p_factor": 1.33,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/fomapan-200-creative-35mm-36exp",
+    "about": "A modern T-grain/tabular mix that offers a different aesthetic than the 100 Classic. Manufacturer data is verified and shows significantly better reciprocity efficiency."
+  },
+  {
+    "id": "foma_400_action",
+    "name": "Fomapan 400 Action",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/fomapan-400-action-35mm-36exp",
+    "about": "A versatile high-speed black and white film for use under unfavorable light. Reliability based on community-corrected factors for more accurate shadow detail."
+  },
+  {
+    "id": "kentmere_pan_100",
+    "name": "Kentmere Pan 100",
+    "iso": 100,
+    "p_factor": 1.26,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kentmere-pan-100-35mm-36exp",
+    "about": "A medium-speed black and white film suitable for a wide variety of applications. Reliability based on community consensus, closely mirroring Ilford FP4+ behavior."
+  },
+  {
+    "id": "fpp_wolfman_100",
+    "name": "FPP Wolfman 100",
+    "iso": 100,
+    "p_factor": 1.26,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/fpp-wolfman-35mm-film",
+    "about": "A moody, German-made black and white emulsion re-spooled by the FPP. Provides a unique, cinematic look with rich blacks. Reciprocity behavior is reliable for long-exposure trekking."
+  },
+  {
+    "id": "fpp_mummy_400",
+    "name": "FPP The Mummy 400",
+    "iso": 400,
+    "p_factor": 1.31,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/fpp-the-mummy-35mm-film",
+    "about": "An experimental panchromatic black and white film with a distinct grain structure and ancient soul. Reliability based on community consensus for 400-speed emulsions."
+  },
+  {
+    "id": "kodak_portra_160",
+    "name": "Kodak Portra 160",
+    "iso": 160,
+    "p_factor": 1.35,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-professional-portra-160-35mm-film",
+    "about": "Features a significantly finer grain structure for improved scanning. Reliability is manufacturer-verified via Kodak F-4040; extremely stable for long-exposure portraiture."
+  },
+  {
+    "id": "kodak_portra_800",
+    "name": "Kodak Portra 800",
+    "iso": 800,
+    "p_factor": 1.40,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-professional-portra-800-35mm-film",
+    "about": "High speed film with natural skin tones. Reliable in even the most challenging low-light situations. Requires more aggressive reciprocity compensation than lower speed stocks."
+  },
+  {
+    "id": "kodak_ektar_100",
+    "name": "Kodak Ektar 100",
+    "iso": 100,
+    "p_factor": 1.15,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-professional-ektar-100-35mm-film",
+    "about": "The world's finest-grain color negative film. High saturation and ultra-vivid color make it ideal for nature. High efficiency in reciprocity math via Kodak Publication E-4046."
+  },
+  {
+    "id": "cinestill_400d",
+    "name": "CineStill 400D",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/cinestill-400-dynamic-color-negative-film-35mm-36-exposures",
+    "about": "A daylight-balanced color negative motion picture film prepared for still photography. Cinematic palette with soft skin tones. Uses the standard 1.3 factor recommended by CineStill."
+  },
+  {
+    "id": "cinestill_50d",
+    "name": "CineStill 50D",
+    "iso": 50,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/cinestill-50-daylight-fine-grain-color-negative-film-35mm-36-exposures",
+    "about": "The sharpest color film in the world, originally for motion picture cameras. Boasts unsurpassed grain and contrast. Ideal for bright-day trekking or pinhole work."
+  },
+  {
+    "id": "ilford_delta_3200",
+    "name": "Ilford Delta 3200 Professional",
+    "iso": 3200,
+    "p_factor": 1.33,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ilford-delta-3200-35mm-film",
+    "about": "Ultra-high-speed black and white film for action and low-light. Reliability is manufacturer-verified, exhibiting predictable reciprocity curves even at extreme speeds."
+  },
+  {
+    "id": "ilford_xp2_super",
+    "name": "Ilford XP2 Super 400",
+    "iso": 400,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ilford-xp2-super-35mm-film",
+    "about": "A sharp, fast black and white film processed in C-41 chemicals. Reliability is at the highest level, mirroring traditional Ilford B&W reciprocity characteristics."
+  },
+  {
+    "id": "ilford_sfx_200",
+    "name": "Ilford SFX 200",
+    "iso": 200,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ilford-sfx-200-35mm-film",
+    "about": "Black and white film with extended red sensitivity for creative applications. Use with a deep red filter for near-infrared looks. Reliability is verified by Ilford."
+  },
+  {
+    "id": "kodak_tmax_3200",
+    "name": "Kodak T-MAX P3200",
+    "iso": 3200,
+    "p_factor": 1.33,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-professional-t-max-p3200-35mm-film",
+    "about": "Multi-speed continuous-tone black and white negative film. Reliability based on Kodak F-4016, offering predictable performance for professional night work."
+  },
+  {
+    "id": "fuji_acros_ii",
+    "name": "Fujifilm Neopan 100 Acros II",
+    "iso": 100,
+    "p_factor": 1.00,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/fujifilm-neopan-100-acros-ii-35mm-film",
+    "about": "The gold standard for long-exposure photography. No reciprocity correction needed up to 120 seconds. Verified via Fuji data sheets for pinpoint accuracy."
+  },
+  {
+    "id": "flic_film_ultrapan_18",
+    "name": "Flic Film UltraPan 18",
+    "iso": 18,
+    "p_factor": 1.31,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-ultrapan-18-35mm-film",
+    "about": "Ultra-low speed technical film re-spooled for pictorial use. Perfect for long daylight exposures and blurred motion without heavy ND filters."
+  },
+  {
+    "id": "adox_chs_100_ii",
+    "name": "Adox CHS 100 II",
+    "iso": 100,
+    "p_factor": 1.26,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/adox-chs-100-ii-35mm-36exp",
+    "about": "Orthopanchromatic black and white film with unique spectral sensitivity that provides beautiful highlight separation. Verified via Adox documentation."
+  },
+  {
+    "id": "kodak_tmax_400",
+    "name": "Kodak T-MAX 400",
+    "iso": 400,
+    "p_factor": 1.24,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-t-max-400-35mm",
+    "about": "A continuous tone panchromatic film with high sharpness and very fine grain. Sourced directly from Kodak Data Sheets for high-precision technical work."
+  },
+  {
+    "id": "cinestill_bwxx",
+    "name": "CineStill BwXX",
+    "iso": 250,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/cinestill-bwxx-35mm-36-exposure",
+    "about": "Classic panchromatic B&W negative film relatively unchanged since 1959. Delivers rich blacks and micro-contrast. Reliability level 3 via CineStill guidelines."
+  },
+  {
+    "id": "rollei_rpx_25",
+    "name": "Rollei RPX 25",
+    "iso": 25,
+    "p_factor": 1.26,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/rollei-rpx-25",
+    "about": "Low-speed panchromatic black and white film with high resolving power. Perfect for bright-day long exposures. Verified via Rollei technical data."
+  },
+  {
+    "id": "rollei_rpx_400",
+    "name": "Rollei RPX 400",
+    "iso": 400,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/rollei-rpx-400",
+    "about": "Traditional high-speed black and white film with a broad tonal range. Manufacturer-verified reciprocity makes it a stable all-around performer."
+  },
+  {
+    "id": "rollei_superpan_200",
+    "name": "Rollei Superpan 200",
+    "iso": 200,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/rollei-superpan-200",
+    "about": "Extended near-infrared sensitivity. Provides high contrast and excellent sharpness. Verified reciprocity curves allow for technical precision."
+  },
+  {
+    "id": "ferrania_p30",
+    "name": "Ferrania P30",
+    "iso": 80,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/ferrania-p30-35mm-36exp",
+    "about": "Cinematic black and white film with high silver content yielding high contrast and almost no grain. Recreation of a legendary mid-century Italian stock."
+  },
+  {
+    "id": "flic_film_pan_50",
+    "name": "Flic Film Pan 50",
+    "iso": 50,
+    "p_factor": 1.33,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-pan-50-35mm-film",
+    "about": "Slow-speed fine-grain black and white film re-spooled for precision work. Reciprocity behavior modeled on the Ilford Pan F+ baseline."
+  },
+  {
+    "id": "kodak_tmax_100",
+    "name": "Kodak T-MAX 100",
+    "iso": 100,
+    "p_factor": 1.15,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kodak-professional-t-max-100-35mm-film",
+    "about": "Kodak's T-Grain emulsion allows for incredible sharpness. Sourced from Technical Publication F-4016, showing high efficiency in long exposures."
+  },
+  {
+    "id": "adox_hr_50",
+    "name": "Adox HR-50",
+    "iso": 50,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/adox-hr-50-35mm-36exp",
+    "about": "High-resolution technical film speed-enhanced to 50 ISO. Great for architecture and landscapes. Verified manufacturer data ensures precision."
+  },
+  {
+    "id": "adox_cms_20_ii",
+    "name": "Adox CMS 20 II",
+    "iso": 20,
+    "p_factor": 1.31,
+    "reliability": 5,
+    "purchase_url": "https://bluebirdfilmshop.com/products/adox-cms-20-ii-35mm-36exp",
+    "about": "The sharpest finest grained film in the world. Originally microfilm, it produces grain-less 16x20 prints. Reliability is manufacturer-verified."
+  },
+  {
+    "id": "lomography_metropolis_400",
+    "name": "Lomography Metropolis 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/lomography-metropolis-35mm",
+    "about": "Unique chemical formula with desaturated colors and muted tones. Reliability level 3; uses standard color negative reciprocity rules."
+  },
+  {
+    "id": "lomochrome_purple",
+    "name": "Lomography LomoChrome Purple",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/lomography-lomochrome-purple-35mm",
+    "about": "Extraordinary color-shifting film that turns green into purple. Reliability based on community consensus; exposures over 10s may cause color shifts."
+  },
+  {
+    "id": "flic_film_cinema_50d",
+    "name": "Flic Film Cinema 50D",
+    "iso": 50,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-cinema-50d-35mm-film",
+    "about": "Fresh Kodak Vision3 50D with rem-jet removed. Iconic cinematic look with daylight balance. Uses standard motion picture reciprocity coefficients."
+  },
+  {
+    "id": "flic_film_cinema_250d",
+    "name": "Flic Film Cinema 250D",
+    "iso": 250,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-cinema-250d-35mm-film",
+    "about": "Fresh Kodak Vision3 250D with rem-jet removed. Known for incredible latitude and natural color. Reliable for long exposures with shadow detail."
+  },
+  {
+    "id": "flic_film_cinema_500t",
+    "name": "Flic Film Cinema 500T",
+    "iso": 500,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/flic-film-cinema-500t-35mm-film",
+    "about": "Fresh Kodak Vision3 500T with rem-jet removed. Tungsten balanced. Reciprocity follows the 1.3 exponent; watch for halation in highlight areas."
+  },
+  {
+    "id": "kosmo_foto_mono",
+    "name": "Kosmo Foto Mono 100",
+    "iso": 100,
+    "p_factor": 1.45,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/kosmo-foto-mono-100-35mm-36exp",
+    "about": "Panchromatic B&W film with a Soviet-era aesthetic. Re-spooled Fomapan 100; be prepared for significant reciprocity compensation."
+  },
+  {
+    "id": "reto_amber_400",
+    "name": "Reto Amber 400",
+    "iso": 400,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/reto-amber-400-35mm-27exp",
+    "about": "Pre-exposed color film with an amber/orange tint. Reliability based on standard 400-speed metrics; excellent for a warm sunset mood."
+  },
+  {
+    "id": "dubblefilm_jelly",
+    "name": "Dubblefilm Jelly",
+    "iso": 200,
+    "p_factor": 1.30,
+    "reliability": 3,
+    "purchase_url": "https://bluebirdfilmshop.com/products/dubblefilm-jelly-35mm-film-36-exposures",
+    "about": "Creative film that produces a mix of colors across each frame. Reciprocity will affect the intensity of the color swirl effect."
   }
 ]
+
